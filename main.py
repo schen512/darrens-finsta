@@ -83,7 +83,7 @@ def makeHTMLContent():
     return content
 
 def makeWebpage(content):
-    webpage = open("PROJECT.html", "w")
+    webpage = open("index.html", "w")
     html = '''<!DOCTYPE html>
     <html>
         <head>
